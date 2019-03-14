@@ -14,7 +14,7 @@ public class Main {
 
         // 2. 从 IOC 容器中获取 Bean 实例
         // 利用 id 定位到 IOC 容器中的 bean
-        HelloWorld helloWorld = (HelloWorld) ctx.getBean("helloWord");
+        HelloWorld helloWorld = (HelloWorld) ctx.getBean("helloWorld");
         // 利用类型返回 IOC 容器中的 Bean，但要求 IOC 容器中必须只能有一个该类型的 Bean
 //        HelloWorld helloWorld = ctx.getBean(HelloWorld.class);
         System.out.println(helloWorld);

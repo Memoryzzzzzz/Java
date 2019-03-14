@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
     <!--
         配置 bean
         class： bean 的全类名，通过反射的方式在 IOC 容器中创建 Bean , 所以要求 Bean 中必须有无参数的构造器
         id： 标识容器中的 bean. id 唯一。
     -->
-    <bean id="helloWord" class="com.test.sping.beans.HelloWorld">
+    <bean id="helloWorld" class="com.test.sping.beans.HelloWorld">
         <property name="name" value="Sping"></property>
     </bean>
 
@@ -88,5 +89,47 @@
             </list>
         </property>
     </bean>
+
+    <!-- 配置 Map 属性值 -->
+    <bean id="newPerson" class="com.test.sping.beans.collections.NewPerson">
+        <property name="name" value="Rose"></property>
+        <property name="age" value="28"></property>
+        <property name="cars">
+            <!-- 使用 map 节点及 map 的 entry 子节点配置 Map 类型的成员变量 -->
+            <map>
+                <entry key="AA" value-ref="car"></entry>
+                <entry key="BB" value-ref="car2"></entry>
+            </map>
+        </property>
+    </bean>
+    
+    <!-- 配置 Properties 属性值 -->
+    <bean id="dataSource" class="com.test.sping.beans.collections.DataSource">
+        <property name="properties">
+            <!-- 使用 props 和 prop 子节点来为 Properties 属性赋值 -->
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="jdbcUrl">jdbc:mysql:///test</prop>
+                <prop key="dricerClass">com.mysql.jdbc.Dricer</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- 配置单例的集合 bean，以供多个 bean 进行引用，需要导入 util 命名空间 -->
+    <util:list id="cars">
+        <ref bean="car"></ref>
+        <ref bean="car2"></ref>
+    </util:list>
+
+    <bean id="person4" class="com.test.sping.beans.collections.Person">
+        <property name="name" value="Jack"></property>
+        <property name="age" value="29"></property>
+        <property name="cars" ref="cars"></property>
+    </bean>
+
+    <!-- 通过 p 命名空间为 bean 的属性赋值，需要先导入 p 命名空间，相对于传统的配置方式更加的简洁。 -->
+    <bean id="person5" class="com.test.sping.beans.collections.Person"
+          p:age="30" p:name="Queen" p:cars-ref="cars"></bean>
 
 </beans>

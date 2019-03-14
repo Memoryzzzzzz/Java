@@ -4,13 +4,14 @@ package com.test.sping.beans.collections;
 import com.test.sping.beans.Car;
 
 import java.util.List;
+import java.util.Map;
 
 public class NewPerson {
 
     private String name;
     private int age;
 
-    private List<Car> cars;
+    private Map<String, Car> cars;
 
     public String getName() {
         return name;
@@ -28,17 +29,17 @@ public class NewPerson {
         this.age = age;
     }
 
-    public List<Car> getCars() {
+    public Map<String, Car> getCars() {
         return cars;
     }
 
-    public void setCars(List<Car> cars) {
+    public void setCars(Map<String, Car> cars) {
         this.cars = cars;
     }
-s
+
     @Override
     public String toString() {
-        return "Person{" +
+        return "NewPerson{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", cars=" + cars +
@@ -48,7 +49,7 @@ s
     public NewPerson() {
     }
 
-    public NewPerson(String name, int age, List<Car> cars) {
+    public NewPerson(String name, int age, Map<String, Car> cars) {
         this.name = name;
         this.age = age;
         this.cars = cars;
