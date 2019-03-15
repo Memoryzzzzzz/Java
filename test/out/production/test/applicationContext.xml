@@ -72,7 +72,6 @@
     </bean>
 
     <!-- 测试如何配置集合属性 -->
-
     <bean id="person3" class="com.test.sping.beans.collections.Person">
         <property name="name" value="Mike"></property>
         <property name="age" value="27"></property>
@@ -103,18 +102,7 @@
         </property>
     </bean>
     
-    <!-- 配置 Properties 属性值 -->
-    <bean id="dataSource" class="com.test.sping.beans.collections.DataSource">
-        <property name="properties">
-            <!-- 使用 props 和 prop 子节点来为 Properties 属性赋值 -->
-            <props>
-                <prop key="user">root</prop>
-                <prop key="password">123456</prop>
-                <prop key="jdbcUrl">jdbc:mysql:///test</prop>
-                <prop key="dricerClass">com.mysql.jdbc.Dricer</prop>
-            </props>
-        </property>
-    </bean>
+
 
     <!-- 配置单例的集合 bean，以供多个 bean 进行引用，需要导入 util 命名空间 -->
     <util:list id="cars">
