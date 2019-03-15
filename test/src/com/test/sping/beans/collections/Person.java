@@ -1,7 +1,8 @@
 package com.test.sping.beans.collections;
 
 
-import com.test.sping.beans.Car;
+import com.test.sping.beans.autowire.Car;
+
 import java.util.List;
 
 public class Person {
