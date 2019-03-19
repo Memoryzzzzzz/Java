@@ -1,9 +1,8 @@
-package com.test.sping.beans.annotation;
+    package com.test.sping.beans.annotation;
 
-import org.springframework.stereotype.Component;
+    import org.springframework.stereotype.Component;
 
-@Component
-public class TestObject {
+    @Component
+    public class TestObject {
 
-
-}
+    }

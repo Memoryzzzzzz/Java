@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bd636f-4090-4640-88e1-f12870ae8861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beans-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beans-beanfactory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beans-factory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factory/InstanceCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factory/StaticCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factorybean/CarFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beans-annotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans-annotation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,27 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/CarFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-end-line="33" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-column="4" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -58,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,12 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,30 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beans-annotation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="320">
+              <caret line="16" column="1" lean-forward="true" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,13 +58,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beans-annotation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="28" lean-forward="true" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beans-autowire.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="40" lean-forward="true" selection-end-line="20" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="280">
+              <caret line="14" column="23" selection-end-line="17" />
               <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-end-line="16" />
+            <state relative-caret-position="300">
+              <caret line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,13 +161,13 @@
         <option value="$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Main.java" />
         <option value="$PROJECT_DIR$/src/com/test/sping/beans/factorybean/CarFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/beans-beanfactory.xml" />
-        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java" />
-        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/beans-annotation.xml" />
         <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java" />
+        <option value="$PROJECT_DIR$/src/beans-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java" />
       </list>
     </option>
   </component>
@@ -203,10 +178,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="911" />
-    <option name="y" value="-1" />
+    <option name="x" value="910" />
     <option name="width" value="1022" />
-    <option name="height" value="1045" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -280,7 +254,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552914249789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552998028779" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -403,7 +377,8 @@
       <workItem from="1552532493854" duration="4838000" />
       <workItem from="1552545263108" duration="18680000" />
       <workItem from="1552619438106" duration="11548000" />
-      <workItem from="1552907954193" duration="5943000" />
+      <workItem from="1552907954193" duration="6099000" />
+      <workItem from="1552984961671" duration="8039000" />
     </task>
     <task id="LOCAL-00001" summary="Sping">
       <created>1552641905597</created>
@@ -412,12 +387,12 @@
       <option name="project" value="LOCAL" />
       <updated>1552641905597</updated>
     </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1552549323631</created>
+    <task id="LOCAL-00002" summary="Sping">
+      <created>1552914339342</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1552549323631</updated>
+      <updated>1552914339342</updated>
     </task>
     <task id="LOCAL-00003" summary="Sping">
       <created>1552559890075</created>
@@ -433,17 +408,17 @@
       <option name="project" value="LOCAL" />
       <updated>1552619480041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17425000" />
+    <option name="totallyTimeSpent" value="25620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="910" y="0" width="1022" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73435783" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73435783" visible="true" weight="0.2993763" />
       <window_info id="Structure" order="1" sideWeight="0.26564217" side_tool="true" weight="0.29313928" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -452,7 +427,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35140997" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39759037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,13 +524,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans-autowire.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="40" lean-forward="true" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -829,6 +797,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/CarFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -836,89 +821,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/beans-autowire.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="40" lean-forward="true" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-end-line="16" />
+          <caret line="16" column="1" lean-forward="true" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/factorybean/CarFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-end-line="33" />
+        <state relative-caret-position="280">
+          <caret line="14" column="23" selection-end-line="17" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/TestObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-column="4" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beans-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/sping/beans/annotation/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="326">
+          <caret line="28" lean-forward="true" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
