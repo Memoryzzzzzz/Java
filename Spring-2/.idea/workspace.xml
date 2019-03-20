@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70606596-6c9a-42cd-b068-852384794205" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/libraries/c3p0_0_9_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/Spring-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/META-INF/test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/beans-autowire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/beans-relation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/beans-scope.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/autowire/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/autowire/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/autowire/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/autowire/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/collections/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/collections/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/collections/NewPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/collections/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/relation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/test/sping/beans/scope/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-annotation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-autowire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-beanfactory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-cycle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-factory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-properties.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-relation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-scope.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/beans-spel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/Service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/TestObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/annotation/repository/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/autowire/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/autowire/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/autowire/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/autowire/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/collections/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/collections/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/collections/NewPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/collections/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/cycle/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/cycle/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/cycle/MyBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factory/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factory/InstanceCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factory/StaticCarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factorybean/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factorybean/CarFactoryBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/factorybean/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/properties/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/relation/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/scope/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/spel/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/spel/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/spel/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/test/sping/beans/spel/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/db-properties" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculatorImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="907" />
+    <option name="y" value="-2" />
+    <option name="width" value="1022" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553064877380" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70606596-6c9a-42cd-b068-852384794205" name="Default Changelist" comment="" />
+      <created>1553064625143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553064625143</updated>
+      <workItem from="1553064628818" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="249000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="907" y="-2" width="1022" height="1045" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948025" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/aop/helloworld/AtithmeticCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
