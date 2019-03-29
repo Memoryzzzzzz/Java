@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a845ef48-1e94-47b4-927e-e672dfdb7b89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/StringTransactionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/UserAccountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a845ef48-1e94-47b4-927e-e672dfdb7b89" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +200,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553515508623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553517421151" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -335,7 +324,7 @@
       <workItem from="1553215222331" duration="18185000" />
       <workItem from="1553247448369" duration="237000" />
       <workItem from="1553483510951" duration="5896000" />
-      <workItem from="1553515018996" duration="867000" />
+      <workItem from="1553515018996" duration="1088000" />
     </task>
     <servers />
   </component>
@@ -372,7 +361,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31677000" />
+    <option name="totallyTimeSpent" value="31898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
