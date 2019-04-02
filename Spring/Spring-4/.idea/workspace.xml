@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a845ef48-1e94-47b4-927e-e672dfdb7b89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Spring-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0__4_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectj_1_9_3_RC1_src.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectj_1_9_3_RC1_src__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/spring/tx/CashierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-5/Spring-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/DeadLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/ProducerAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-1/Spring-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-1/Spring-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-2/Spring-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-2/Spring-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-3/Spring-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-3/Spring-3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/libraries/aopalliance_alpha1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/libraries/aspectj_1_9_3_RC1_src.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/aopalliance-alpha1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/aspectj-1.9.3.RC1-src.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/aspectj-1.9.3.RC1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/aspectjweaver-1.9.3.RC1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/applicationContext-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/ArithmeticCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/ArithmeticCalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/VlidationAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/xml/ArithmeticCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/xml/ArithmeticCalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/xml/LoggingAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/xml/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/out/production/Spring-3/com/test/spring/aop/xml/VlidationAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/applicationContext-xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/ArithmeticCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/ArithmeticCalculatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/LoggingAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/VlidationAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/xml/ArithmeticCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/xml/ArithmeticCalculatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/xml/LoggingAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/xml/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-3/src/com/test/spring/aop/xml/VlidationAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/BookShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/BookShopServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/BookStockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/BookStockException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/StringTransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/StringTransactionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/UserAccountException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring-4/com/test/spring/tx/UserAccountException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/spring/tx/StringTransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/spring/tx/StringTransactionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/Test01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test/Test01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/Test01/out/production/Test01/com/test/multithreading/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test/Test01/out/production/Test01/com/test/multithreading/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/MyThread111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/YieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test/Test01/src/com/test/multithreading/YieldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
@@ -130,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="600">
+              <caret line="30" column="56" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="30" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/CashierImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="31" lean-forward="true" selection-end-line="22" />
+            <state relative-caret-position="340">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -326,7 +235,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554209988583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554211791686" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -463,7 +372,7 @@
       <workItem from="1554195397401" duration="953000" />
       <workItem from="1554196649225" duration="209000" />
       <workItem from="1554196914922" duration="223000" />
-      <workItem from="1554197293203" duration="7081000" />
+      <workItem from="1554197293203" duration="9482000" />
     </task>
     <servers />
   </component>
@@ -500,7 +409,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40364000" />
+    <option name="totallyTimeSpent" value="42765000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,9 +422,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="900" y="0" width="1027" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945235" visible="true" weight="0.27094105" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945235" weight="0.27094105" />
       <window_info id="Structure" order="1" sideWeight="0.50054765" side_tool="true" weight="0.28008753" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -524,7 +432,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33187294" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33187294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -928,24 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookStockException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" lean-forward="true" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -965,32 +859,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/CashierImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="31" lean-forward="true" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#1433#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/CashierImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookStockException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/spring/tx/BookShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="56" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
