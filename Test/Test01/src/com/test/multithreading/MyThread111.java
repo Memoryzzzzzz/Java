@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-public class MyThread implements Callable<Integer> {
+public class MyThread111 implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
@@ -18,7 +18,7 @@ public class MyThread implements Callable<Integer> {
     }
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        Callable<Integer> callable = new MyThread();
+        Callable<Integer> callable = new MyThread111();
         FutureTask<Integer> futureTask = new FutureTask<>(callable);
         Thread thread = new Thread(futureTask, "线程1");
 

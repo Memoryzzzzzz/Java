@@ -2,6 +2,8 @@ package com.test.spring.tx;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("bookShopService")
 public class BookShopServiceImpl implements BookShopService {
@@ -9,6 +11,11 @@ public class BookShopServiceImpl implements BookShopService {
     @Autowired
     private BookShopDao bookShopDao;
 
+    // 添加事务注解
+    // 使用 propagation 指定事务的传播行为，即当前的事务方法被另一个事务方法调用时
+    // 如何使用事务，默认取值为 REQUIRED，即使用调用方法的事务
+    // REQUIRES_NEW：事务自己的事务，调用的事务方法的事务被挂起。
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
     @Override
     public void purchase(String username, String isbn) {
 

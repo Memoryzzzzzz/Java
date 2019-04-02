@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aopalliance-alpha1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aspectjweaver-1.9.3.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-aop-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-aspects-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-beans-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-context-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-context-support-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-core-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-expression-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-instrument-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-jdbc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-jms-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-messaging-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-orm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-oxm-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-test-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/spring-tx-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aspectj-1.9.3.RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aspectj-1.9.3.RC1.jar!/files/doc/runtime-apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aspectj-1.9.3.RC1.jar!/files/doc/examples" />
+      <root url="jar://$PROJECT_DIR$/../Spring-3/lib/aspectj-1.9.3.RC1.jar!/files/doc/examples/ltw" />
+    </SOURCES>
+  </library>
+</component>
