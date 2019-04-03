@@ -23,16 +23,16 @@ public class BookShopServiceImpl implements BookShopService {
     // 这样可以帮助数据库引擎优化事务，若是一个只读取数据库值的方法，应设置 readOnly = true
     // 5. 使用 timeout 指定强制回滚之前事务可以占用的时间。
     @Transactional(propagation = Propagation.NOT_SUPPORTED,
-            isolation = Isolation.READ_COMMITTED,
-            noRollbackFor = {UserAccountException.class},
-            readOnly = false,
-            timeout = 3)
+        isolation = Isolation.READ_COMMITTED,
+        readOnly = false,
+        timeout = 3)
     @Override
     public void purchase(String username, String isbn) {
 
         try {
             Thread.sleep(5000);
-        } catch (InterruptedException e) {}
+        } catch (InterruptedException e) {
+        }
 
         // 1. 获取书的单价
         int price = bookShopDao.findBookPriceByIsbn(isbn);

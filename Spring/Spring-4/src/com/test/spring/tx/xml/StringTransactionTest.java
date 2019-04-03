@@ -1,4 +1,4 @@
-package com.test.spring.tx;
+package com.test.spring.tx.xml;
 
 import java.util.Arrays;
 import org.junit.Test;
