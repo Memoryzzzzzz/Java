@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a845ef48-1e94-47b4-927e-e672dfdb7b89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/.idea/artifacts/DingDing_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/.idea/libraries/commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/commons-codec-1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/fluent-hc-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpclient-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpclient-cache-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpclient-osgi-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpclient-win-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpcore-4.4.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/httpmime-4.5.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/jna-4.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/lib/jna-platform-4.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Test/DingDing/src/send/ChatSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/spring/tx/StringTransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/spring/tx/StringTransactionTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a845ef48-1e94-47b4-927e-e672dfdb7b89" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,9 +87,9 @@
               <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -393,7 +372,7 @@
       <workItem from="1554268095853" duration="40000" />
       <workItem from="1554268238060" duration="337000" />
       <workItem from="1554268892488" duration="1241000" />
-      <workItem from="1554272219593" duration="2525000" />
+      <workItem from="1554272219593" duration="3124000" />
     </task>
     <servers />
   </component>
@@ -430,7 +409,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50254000" />
+    <option name="totallyTimeSpent" value="50853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,7 +421,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945235" visible="true" weight="0.14232409" />
@@ -911,9 +890,9 @@
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
           </folding>
         </state>
       </provider>
