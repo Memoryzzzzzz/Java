@@ -1,10 +1,9 @@
 package com.test.spring.tx;
 
+import java.util.Arrays;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.Arrays;
 
 public class StringTransactionTest {
 
@@ -21,18 +20,18 @@ public class StringTransactionTest {
     }
 
     @Test
-    public void testTeansactionlPropagation(){
-        cashier.checkout("AA", Arrays.asList("1001","1002"));
+    public void testTeansactionlPropagation() {
+        cashier.checkout("AA", Arrays.asList("1001", "1002"));
     }
 
     @Test
-    public void testBookShopService(){
+    public void testBookShopService() {
         bookShopService.purchase("AA", "1001");
     }
 
     // 用户AA的账户余额减去100
     @Test
-    public void testBookShopDaoUpdateUserAccount(){
+    public void testBookShopDaoUpdateUserAccount() {
         bookShopDao.updateUserAccount("AA", 100);
     }
 
@@ -47,5 +46,5 @@ public class StringTransactionTest {
     public void test() {
         System.out.println(bookShopDao.findBookPriceByIsbn("1001"));
     }
-
+    
 }
