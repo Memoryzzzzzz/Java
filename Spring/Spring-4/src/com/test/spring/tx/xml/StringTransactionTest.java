@@ -29,22 +29,4 @@ public class StringTransactionTest {
         bookShopService.purchase("AA", "1001");
     }
 
-    // 用户AA的账户余额减去100
-    @Test
-    public void testBookShopDaoUpdateUserAccount() {
-        bookShopDao.updateUserAccount("AA", 100);
-    }
-
-    // isbn为1001的库存减一
-    @Test
-    public void testBookShopDapUpdateBookStock() {
-        bookShopDao.updateBookStock("1001");
-    }
-
-    // 获取isbn为1001的价格
-    @Test
-    public void test() {
-        System.out.println(bookShopDao.findBookPriceByIsbn("1001"));
-    }
-
 }
