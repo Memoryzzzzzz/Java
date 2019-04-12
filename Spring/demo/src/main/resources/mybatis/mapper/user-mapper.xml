@@ -17,8 +17,8 @@
       select last_insert_id()
     </selectKey>
     insert into tb_student
-    (name,sex,address)
+    (name,sex)
     values
-    (#{name},#{sex},#{userAddress.province})
+    (#{name},#{sex})
   </insert>
 </mapper>

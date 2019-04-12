@@ -8,7 +8,7 @@ public class User implements Serializable {
     private String name;
     private String sex;
 
-    public int getId() {
+    public int getId(int id) {
         return id;
     }
 

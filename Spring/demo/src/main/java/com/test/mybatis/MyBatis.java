@@ -99,4 +99,66 @@ public class MyBatis {
         sqlSession.close();
     }
 
+
+    /**
+     * 根据id删除用户
+     */
+    @Test
+    public void testDeleteUser(){
+        // mybatis配置文件
+        String resource = "mybatis/Mybatis-config.xml";
+        // 得到配置文件流
+        InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
+        // 创建会话工厂构造类
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+        // 通过会话工厂构造类来和mybatis配置文件来获得会话工厂类
+        SqlSessionFactory sqlSessionFactory = builder.build(inputStream);
+        // 通过会话工厂类获取对应的会话
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        Integer id = 21;
+        // 根据传入的id删除用户信息
+        sqlSession.delete("user.deleteUserById",id);
+        // 提交事务
+        sqlSession.commit();
+
+        // 输出信息
+        System.out.println("删除用户id为"+id);
+
+        sqlSession.close();
+    }
+
+
+    /**
+     * 根据id更新用户
+     */
+    @Test
+    public void testUpdateUser(){
+        // mybatis配置文件
+        String resource = "mybatis/Mybatis-config.xml";
+        // 得到配置文件流
+        InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
+        // 创建会话工厂构造类
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+        // 通过会话工厂构造类来和mybatis配置文件来获得会话工厂类
+        SqlSessionFactory sqlSessionFactory = builder.build(inputStream);
+        // 通过会话工厂类获取对应的会话
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+        User user = new User();
+
+        user.setName("小蓝");
+        user.setSex("男");
+
+        // id必须传入
+        user.setId(22);
+
+        // 更新用户信息
+        sqlSession.update("updateUser",user);
+        // 提交事务
+        sqlSession.commit();
+
+        sqlSession.close();
+    }
+
 }
