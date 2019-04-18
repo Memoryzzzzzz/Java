@@ -19,7 +19,7 @@ public class MyBatis {
     @Test
     public void testFindUserById(){
         // mybatis配置文件
-        String resource = "mybatis/Mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
         // 创建会话工厂构造类
@@ -48,7 +48,7 @@ public class MyBatis {
     public void testFindUserByName(){
 
         // mybatis配置文件
-        String resource = "mybatis/Mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
         // 创建会话工厂构造类
@@ -71,7 +71,7 @@ public class MyBatis {
     @Test
     public void testInsertUser(){
         // mybatis配置文件
-        String resource = "mybatis/Mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
         // 创建会话工厂构造类
@@ -106,7 +106,7 @@ public class MyBatis {
     @Test
     public void testDeleteUser(){
         // mybatis配置文件
-        String resource = "mybatis/Mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
         // 创建会话工厂构造类
@@ -135,7 +135,7 @@ public class MyBatis {
     @Test
     public void testUpdateUser(){
         // mybatis配置文件
-        String resource = "mybatis/Mybatis-config.xml";
+        String resource = "mybatis/mybatis-config.xml";
         // 得到配置文件流
         InputStream inputStream = MyBatis.class.getClassLoader().getResourceAsStream(resource);
         // 创建会话工厂构造类

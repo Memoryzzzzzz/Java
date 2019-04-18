@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <!-- 加载属性文件 -->
+  <properties resource="datasource.properties"/>
+
+  <!-- 直接配置属性值和属性名 -->
+<!--  <properties>-->
+<!--    <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+<!--    <property name="url" value="jdbc:mysql://localhost:3306/test"/>-->
+<!--    <property name="username" value="root"/>-->
+<!--    <property name="password" value="123456"/>-->
+<!--  </properties>-->
+
+  <!-- 和Spring整合后废除 -->
+  <environments default="development">
+    <environment id="development">
+      <!-- 使用JDBC事务管理，事务由mybatis来进行控制 -->
+      <transactionManager type="JDBC"/>
+      <!-- 数据库连接池属性 -->
+      <dataSource type="POOLED">
+        <property name="driver" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.jdbcUrl}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+      </dataSource>
+    </environment>
+  </environments>
+
+  <!-- 自定义别名 -->
+  <typeAliases>
+    <!-- 单个别名定义 -->
+     <typeAlias type="com.test.mybatis.domain.User" alias="user" />
+    <!-- 批量别名定义 -->
+    <!-- mybatis自动扫描包中的po类，自动定义别名，别名就是类名(首字母大写或者小写都可以) -->
+     <package name="com.test.mybatis.domain"/>
+  </typeAliases>
+
+  <!-- 加载配置文件 -->
+  <mappers>
+    <mapper resource="mybatis/mapper/user-mapper.xml"/>
+  </mappers>
+
+<!--  &lt;!&ndash; 加载配置文件 &ndash;&gt;-->
+<!--  <mappers>-->
+<!--    &lt;!&ndash; 1. 通过resource方法一次性加载一个配置文件 &ndash;&gt;-->
+<!--    <mapper resource="mybatis/mapper/user.xml" />-->
+<!--    <mapper resource="mybatis/mapper/user-mapper.xml" />-->
+<!--    <mapper resource="mybatis/mapper/employee-mapper.xml" />-->
+<!--    &lt;!&ndash; 2. 通过url方法一次性加载一个配置文件 &ndash;&gt;-->
+<!--     <mapper url="D:\IdeaProjects\Spring\demo\src\main\resources\mybatis\mapper\user-mapper.xml" />-->
+<!--    &lt;!&ndash; 3. 通过mapper接口加载映射文件 &ndash;&gt;-->
+<!--    &lt;!&ndash; 前提是遵循mapper接口类名 &ndash;&gt;-->
+<!--    &lt;!&ndash; 遵循一些接口：需要将mapper接口类名和mapper.xml映射文件名称保持一致，且在一个目录中 &ndash;&gt;-->
+<!--     <mapper class="com.test.mybatis.mapper.UserMapper" />-->
+<!--    &lt;!&ndash; 4. 批量加载mapper指定mapper接口的包名，mybatis自动扫描包下所有mapper接口进行加载 &ndash;&gt;-->
+<!--    &lt;!&ndash; 遵循一些规范：需要将mapper接口类名和mapper.xml映射文件名称保持一致，且在一个目录中上边规范的前提是：使用的是mapper代理方法 &ndash;&gt;-->
+<!--     <package name="com.test.mybatis.mapper"/>-->
+<!--  </mappers>-->
+
+</configuration>

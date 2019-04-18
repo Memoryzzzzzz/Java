@@ -9,3 +9,13 @@ _
 /src/main/java/com/test/mybatis/domain/User.java,e\9\e9bb794b66b69565b256ed558eae9ef8b9d42e92
 e
 5src/main/java/com/test/mybatis/mapper/UserMapper.java,c\4\c45a62a8a9132b448cb1e09d8afd8dd15bd97925
+g
+7src/test/java/com/test/mybatis/test/UserMapperTest.java,b\7\b7ef14cc15f466d578ca491d28febf30375b80b3
+h
+8src/test/java/com/test/mybatis/test/UserDaoImplTest.java,8\f\8ffff5bd24533b4bf1f960a27edc1b2f6c4fc4ca
+_
+/src/main/java/com/test/mybatis/dao/UserDao.java,8\d\8d37c43947d22cb0a72ad7db56a1b66ec172098c
+c
+3src/main/java/com/test/mybatis/dao/UserDaoImpl.java,a\5\a5c24440380f2c4d30e284c73823873de416ae61
+g
+7src/main/java/com/test/mybatis/dto/UserSearchParam.java,5\b\5b36f4584e26533756e379afdd15f19c4dbc8145

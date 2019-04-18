@@ -43,11 +43,7 @@ d
 4src/com/test/spring/tx/xml/UserAccountException.java,1\6\16355598d46cbbb5adc3dff0de9e431cb262c6d1
 W
 'src/com/test/spring/tx/xml/Cashier.java,8\f\8f34d7158d0e615e70830eadd80acd2b6f493e04
+X
+(src/com/test/spring/jdbc/Department.java,8\2\823c47b26a9219094898d6f12c95cd74bddd4816
 R
-"src/com/test/spring/test/test.java,3\3\33d6b2a1b72326f9f5635ed01ac428ccf5865684
-B
-Spring-Mybatis.iml,0\c\0c9a0e4e7c2410b2637f544863ba7bfb414c941d
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-8
-test.sql,0\1\01eb742dd37fd37173125b676f03c7641ab3a0c3
+"src/com/test/spring/jdbc/test.java,4\7\47fe8ecf7c235271911b5e6dc6ffee64380edd4f

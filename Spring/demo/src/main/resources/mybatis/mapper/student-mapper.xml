@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.test.mybatis.mapper.UserMapper">
+  <!-- 定义resultMap -->
+  <!-- 将数据库表tb_student的列名和pojo的属性进行映射 -->
+  <!-- id:对resultMap的唯一标识 -->
+  <resultMap id="student" type="tb_student">
+    <!-- id:标识查询结果集中的唯一标识 -->
+    <!-- columm:数据库查询出来的列名 -->
+    <!-- property:pojo的属性名 -->
+    <id columm="id" property="id"/>
+    <!-- result:对普通映射列的定义 -->
+    <!-- columm:数据库查询出来的列名 -->
+    <!-- property:pojo的属性名 -->
+    <trsult colum="name" property="name"/>
+    <trsult colum="sex" property="sex"/>
+  </resultMap>
+
+  <!-- 通过sql链接查询将相应需要的数据查询 -->
+  <select id="querystudent" parameterType="studentSearch" resultMap="studentResultMap">
+    select * from tb_student
+    where id=#{id}
+    and name LIKE concat('%',#{value},'%')
+    and sex=#{sex}
+  </select>
+
+  <select id="queryStudent" parameterType="studentSearch" resultMap="studentResultMap">
+    select * from tb_student
+    -- where标签会自动删除第一个and或or
+    <where>
+        -- 通过include来引用sql片段
+        -- refid:表示所要引用sql片段的id
+        <include refid="studentQuerySql"/>
+    </where>
+  </select>
+</mapper>

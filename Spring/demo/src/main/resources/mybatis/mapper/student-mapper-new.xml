@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 员工信息的高级查询 -->
+<mapper namespace="com.test.mybatis.mapper.UserMapper">
+  <!-- sql:片段 -->
+  <!-- id:唯一标识sql片段，跨mapper文件前面增加namespace -->
+  <sql id="studentQuerySql">
+    <if test="id != null">
+      and id=#{id}
+    </if>
+    <if test="ids != null">
+      -- 使用foreach遍历ids
+      -- 指定输入对象中的集合属性
+      -- item:每个遍历生成的对象
+      -- open:遍历开始的拼接串
+      -- close:遍历结束的拼接串
+      -- separator:遍历对象之间所拼接串
+      and id in
+      <foreach collection="ids" item="id" open="(" close=")" separator=",">
+        -- 每个拼接的字符串
+        #{id}
+      </foreach>
+    </if>
+    <if test="name != null and name != ' '">
+      and name LIKE concat('%',#{value},'%')
+    </if>
+    <if test="sex != null">
+      and sex=#{sex}
+    </if>
+    where id=#{id}
+  </sql>
+</mapper>
